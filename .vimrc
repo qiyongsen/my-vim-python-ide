@@ -159,6 +159,16 @@ call pathogen#infect()
 " cd ~/.vim/bundle
 " git clone git://github.com/Lokaltog/vim-powerline.git
 set laststatus=2
+" qi  
+" fonts install http://www.cnblogs.com/acbingo/p/4752212.html
+" for windows
+set guifont=Fira_Mono_for_Powerline:h10
+" for linux
+"set guifont=Liberation\ Mono\ for\ Powerline\ 10
+let g:Powerline_symbols = 'fancy'
+" end qi
+
+
 
 " Settings for ctrlp
 " cd ~/.vim/bundle
