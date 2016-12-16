@@ -155,18 +155,23 @@ call pathogen#infect()
 " ============================================================================
 
 
+" Settings for solarized
+" cd ~/.vim/bundle
+" git clone git://github.com/altercation/vim-colors-solarized.git
+syntax enable
+set background=dark  "or light
+colorscheme solarized
+
 " Settings for vim-powerline
 " cd ~/.vim/bundle
 " git clone git://github.com/Lokaltog/vim-powerline.git
 set laststatus=2
-" qi  
 " fonts install http://www.cnblogs.com/acbingo/p/4752212.html
 " for windows
 set guifont=Fira_Mono_for_Powerline:h10
 " for linux
 "set guifont=Liberation\ Mono\ for\ Powerline\ 10
 let g:Powerline_symbols = 'fancy'
-" end qi
 
 
 
